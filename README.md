@@ -18,6 +18,12 @@ Set-PSReadLineOption -HistorySavePath "C:\Temp\PowerShellHistory.txt"
 
 ### Okay now lets remote into remote computer
 
+But first name sure you can remote into it by check running this command:
+
+``Test-WSMan -Computername hostnameHERE!``
+
+Okay that you know the machine is active 
+
 ``Enter-PSSession``
 
 When it prompt for computername, please enter the hostname only.
