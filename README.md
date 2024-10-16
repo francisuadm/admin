@@ -11,6 +11,7 @@ After running above command, run this other commands:
 ``
 Set-PSReadLineOption -HistorySaveStyle SaveNothing
 ``
+
 ``
 Set-PSReadLineOption -HistorySavePath "C:\Temp\PowerShellHistory.txt"
 ``
